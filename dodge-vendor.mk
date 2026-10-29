@@ -885,8 +885,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl8.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl8.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/spatializer/SPK_MOVIE_lvl9.bin:$(TARGET_COPY_OUT_ODM)/etc/spatializer/SPK_MOVIE_lvl9.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_0.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_0.bin \
-    vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_1.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_1.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_10.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_10.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_100.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_100.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_101.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_101.bin \
@@ -906,7 +904,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_12.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_12.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_122.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_122.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_170.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_170.bin \
-    vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_2.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_2.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_3.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_3.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_302.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_302.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/vibrator/9999/def/effect_303.bin:$(TARGET_COPY_OUT_ODM)/etc/vibrator/9999/def/effect_303.bin \
@@ -1391,6 +1388,7 @@ PRODUCT_PACKAGES += \
     com.qti.qseeutils \
     com.qti.settings.sm8750 \
     com.qti.stats.common \
+    com.qti.stats.sotr \
     com.qualcomm.mcx.distortionmapper \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.nonlinearmapper \
@@ -1615,6 +1613,7 @@ PRODUCT_PACKAGES += \
     libocce3a \
     libocompression \
     liboplus_audiox \
+    liboplus_lightsensorprovider \
     liboplusdfx \
     libopluspdparam \
     liboprec_audrec \
