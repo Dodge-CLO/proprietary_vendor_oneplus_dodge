@@ -1169,6 +1169,75 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/vendor/firmware/CAMERA_ICP_1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_1.mdt \
     vendor/oneplus/dodge/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/oneplus/dodge/proprietary/vendor/firmware/sn220u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn220u.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n00.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n00.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n01.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n01.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n02.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n02.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n03.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n03.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n04.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n04.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n05.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n05.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n06.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n06.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n07.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n07.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n08.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n08.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n09.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n09.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n10.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n10.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n11.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n11.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n12.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n12.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n13.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n13.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n14.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n14.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n15.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n15.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n28.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n28.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n29.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n29.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n30.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n30.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n31.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n31.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n32.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n32.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n33.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n33.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n34.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n34.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n37.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n37.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n40.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n40.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n41.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n41.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n42.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n42.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n43.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n43.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n44.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n44.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n45.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n45.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n46.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n46.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n49.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n49.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n50.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n50.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n51.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n51.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n52.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n52.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n53.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n53.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n54.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n54.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n55.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n55.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n56.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n56.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n57.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n57.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n58.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n58.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n63.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n63.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n64.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n64.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n65.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n65.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n66.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n66.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n67.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n67.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n68.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n68.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n69.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n69.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n70.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n70.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n71.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n71.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n72.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n72.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n73.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n73.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n74.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n74.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n75.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n75.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n76.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n76.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n77.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n77.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n78.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n78.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n79.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n79.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n80.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n80.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n81.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n81.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n82.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n82.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n83.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n83.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n84.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n84.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n85.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n85.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n86.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n86.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n87.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n87.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n88.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n88.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n90.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n90.bin \
+    vendor/oneplus/dodge/proprietary/vendor/lib64/bm5a79v08s13n91.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm5a79v08s13n91.bin \
     vendor/oneplus/dodge/proprietary/vendor/lib64/camera/bitmlconfig.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig.bin \
     vendor/oneplus/dodge/proprietary/vendor/lib64/camera/bitmlconfig_sm7550.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/bitmlconfig_sm7550.bin \
     vendor/oneplus/dodge/proprietary/vendor/lib64/camera/camxfl115indices.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/camxfl115indices.bin \
