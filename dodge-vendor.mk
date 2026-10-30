@@ -1503,6 +1503,7 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcommonchiutils \
     libdepthcomputation \
+    libdscaalgo \
     libhdr10plus \
     libhdr_stub \
     libhme \
