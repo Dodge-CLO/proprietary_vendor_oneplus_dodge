@@ -47,6 +47,53 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/up_ve_enpuv5_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_ha.eai \
     vendor/oneplus/dodge/proprietary/odm/etc/acdbdata/up_ve_enpuv5_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv5_hh.eai \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_COMMON.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_COMMON.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_GAME1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_GAME1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_GAME2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_GAME2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_MOVIE.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_MOVIE.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_MOVIE2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_MOVIE2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_MUSIC.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_MUSIC.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/HP_VOICE.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/HP_VOICE.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_COMMON_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_COMMON_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_COMMON_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_COMMON_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_COMMON_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_COMMON_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_COMMON_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_COMMON_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_COMMON_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_COMMON_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME1_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME1_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME1_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME1_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME1_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME1_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME1_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME1_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME1_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME1_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME2_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME2_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME2_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME2_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME2_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME2_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME2_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME2_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_GAME2_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_GAME2_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE2_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE2_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE2_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE2_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE2_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE2_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE2_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE2_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE2_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE2_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE3_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE3_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE3_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE3_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE3_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE3_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE3_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE3_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE3_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE3_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MOVIE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MOVIE_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MUSIC_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MUSIC_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MUSIC_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MUSIC_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MUSIC_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MUSIC_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MUSIC_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MUSIC_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_MUSIC_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_MUSIC_lvl5.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_VOICE_lvl1.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_VOICE_lvl1.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_VOICE_lvl2.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_VOICE_lvl2.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_VOICE_lvl3.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_VOICE_lvl3.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_VOICE_lvl4.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_VOICE_lvl4.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/audio/audiox_param/SPK_VOICE_lvl5.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/audiox_param/SPK_VOICE_lvl5.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/AIAEVideoModel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/AIAEVideoModel.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
@@ -1710,11 +1757,13 @@ PRODUCT_PACKAGES += \
     libwrapper_te \
     libyuvwrapper \
     libzlib \
+    libOplusAudioxAidl \
     libOplusSpatializerAidl_DKY \
     vendor.dolby.dvs-V1-ndk \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
+    AudioEffectCenter \
     EuiccGoogle \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
