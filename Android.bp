@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/oneplus/dodge",
         "hardware/oplus",
         "vendor/oneplus/sm8750-common",
     ],
@@ -11800,6 +11801,7 @@ cc_prebuilt_library_shared {
                 "proprietary/odm/lib64/libAlgoProcess.so",
             ],
             shared_libs: [
+                "libapsfixup",
                 "android.hardware.graphics.mapper@4.0",
                 "android.hardware.graphics.common-V7-ndk",
                 "android.hardware.graphics.allocator-V2-ndk",
