@@ -10773,6 +10773,122 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libdolbyeffect_5.0",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libdolbyeffect_5.0.so",
+            ],
+            shared_libs: [
+                "libGLESv3",
+                "libEGL",
+                "liblog",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdolbyproxyandroid",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libdolbyproxyandroid.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder_ndk",
+                "libhidlbase",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libdolbyui",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/libdolbyui.so",
+            ],
+            shared_libs: [
+                "android.hardware.graphics.mapper@4.0",
+                "libbase",
+                "libbinder_ndk",
+                "libcutils",
+                "libgralloctypes",
+                "libhidlbase",
+                "libsync",
+                "libutils",
+                "liblog",
+                "libvndksupport",
+                "android.hardware.graphics.common-V7-ndk",
+                "android.hardware.graphics.allocator-V2-ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "liboplusdolbyeffect_5.0",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/system_ext/lib64/liboplusdolbyeffect_5.0.so",
+            ],
+            shared_libs: [
+                "libdolbyeffect_5.0",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    system_ext_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qti.sensor.dodgefront",
     owner: "oneplus",
     strip: {

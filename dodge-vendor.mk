@@ -1606,6 +1606,10 @@ PRODUCT_PACKAGES += \
     sensors.qsh \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
+    libdolbyeffect_5.0 \
+    libdolbyproxyandroid \
+    libdolbyui \
+    liboplusdolbyeffect_5.0 \
     com.qti.sensor.dodgefront \
     com.qti.sensor.dodgemain \
     com.qti.sensor.dodgetele \
